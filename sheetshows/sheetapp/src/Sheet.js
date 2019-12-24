@@ -11,7 +11,8 @@ export default class Sheet extends Component {
             width: 1200,
             report: {
                 dataSource: {
-                    filename: "https://github.com/shanewas/rocks/blob/master/sheetshows/sheetapp/final_status.csv"
+                    filename: "https://raw.githubusercontent.com/shanewas/rocks/master/sheetshows/sheetapp/final_status.csv",
+                    fieldSeparator: ","
                 },
                 options: {
                     grid: {
@@ -37,7 +38,7 @@ export default class Sheet extends Component {
     render() {
         return (
             <React.Fragment>
-                <div className="container center" id="wdr-component" ref={this.div}>dasdas</div>
+                <div className="container center" id="wdr-component" ref={this.div}></div>
             </React.Fragment>
     
         )
