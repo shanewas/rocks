@@ -11,7 +11,7 @@ export default class Sheet extends Component {
             width: 1200,
             report: {
                 dataSource: {
-                    filename: "https://raw.githubusercontent.com/shanewas/rocks/master/sheetshows/sheetapp/final_status.csv",
+                    filename: "https://cdn.webdatarocks.com/data/data.csv",
                     fieldSeparator: ","
                 },
                 options: {
